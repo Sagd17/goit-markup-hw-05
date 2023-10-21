@@ -211,6 +211,25 @@ ul {
   display: flex;
   justify-content: space-between;
   margin-bottom: 94px;
+  position: relative;
+}
+
+.text__images {
+  margin: 0;
+  bottom: 0;
+  width: 373px;
+  padding: 27px 0;
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .title__images {
